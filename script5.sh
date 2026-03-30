@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 5: The Open Source Manifesto Generator
-# Author: Shabi | Course: Open Source Software
+# Author: Swastik | Course: Open Source Software
 
 echo "=========================================="
 echo "      Welcome to the Manifesto Generator   "
