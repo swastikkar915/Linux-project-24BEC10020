@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 2: FOSS Package Inspector
-# Author: Shabi | Course: Open Source Software
+# Author: Swastik | Course: Open Source Software
 
 PACKAGE="python3"
 
