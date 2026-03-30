@@ -7,43 +7,39 @@ A Capstone Project for the OSS NGMC Course.
 - **Course:** Open Source Software
 
 ## Project Overview
-This repository contains a structured audit of **Python**, an open-source programming language managed by the Python Software Foundation. Python was chosen for its massive impact on the open-source ecosystem, its permissive license, and its philosophy of readability and simplicity ("The Zen of Python").
+The Python Software Foundation runs Python, an open-source programming language. This repository has a structured audit of Python. We chose Python because it has a huge effect on the open-source community, its license is very flexible, and its philosophy is to be easy to read and understand.
 
 ## Contents
-1.  **OSS Audit Report (PDF):** A detailed analysis of Python's history, licensing (PSF License), and ecosystem.
-2.  **Shell Scripts:** Five practical Linux automation scripts demonstrating core CLI skills.
-
+1. **OSS Audit Report (PDF):** An in-depth look at Python's past, its licensing (the PSF License), and its ecosystem.
+2. **Shell Scripts:** Five useful Linux automation scripts that show off basic command-line skills.
 ## Shell Scripts Description
 
 ### 1. System Identity Report (`script1.sh`)
-Provides a snapshot of the current Linux environment, including the kernel version, uptime, and the user's software choice.
+Shows a quick picture of the current Linux environment, such as the kernel version, uptime, and the user's software choice.
 
 ### 2. FOSS Package Inspector (`script2.sh`)
-Checks if Python is installed on the system, displays version details, and provides a summary of its purpose using a `case` statement.
-
+Using a "case" statement, it checks to see if Python is installed on the system, shows the version information, and gives a brief description of what it does.
 ### 3. Disk and Permission Auditor (`script3.sh`)
-Scans critical system directories to report disk usage and file permissions, helping identify where Python-related configurations may reside.
-
+Scans important system directories to find out how much disk space is being used and what permissions files have. This helps find where Python-related settings might be.
 ### 4. Log File Analyzer (`script4.sh`)
-A diagnostic tool that searches through system log files for specific keywords (like "ERROR" or "PYTHON") and provides a summary of occurrences.
+A diagnostic tool that looks through system log files for certain words, like "ERROR" or "PYTHON," and gives a summary of how many times they happened.
 
 ### 5. Open Source Manifesto Generator (`script5.sh`)
-An interactive script that gathers user input to generate a personalized "Open Source Manifesto" text file.
+A script that lets users interact with it to make a custom "Open Source Manifesto" text file.
 
 ## How to Run the Scripts
-1.  **Clone the repository:**
-    ```bash
-    git clone [your-repo-url]
-    cd [repo-name]
-    ```
-2.  **Make the scripts executable:**
-    ```bash
-    chmod +x *.sh
-    ```
-3.  **Execute a script:**
-    ```bash
-    ./script1.sh
-    ```
+1. **Clone the repository:**  
+    ```bash  
+    git clone [your-repo-url]  
+    cd [repo-name]  
+    ```  
+2. **Make the scripts executable:**  
+    ```bash  
+    chmod +x *.sh  
+    ```  
+3. **Execute a script:**  
+    ```bash  
+    ./script1.sh  
+    ```  
 
----
 *Note: These scripts are designed for a Linux environment.*
