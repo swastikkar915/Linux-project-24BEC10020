@@ -3,7 +3,7 @@
 # Author: Swastik | Course: Open Source Software
 
 # --- Variables ---
-STUDENT_NAME="Swastik"
+STUDENT_NAME="Anshuman"
 SOFTWARE_CHOICE="Python"
 
 # --- System info ---
